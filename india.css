@@ -1,0 +1,105 @@
+:root {
+  --color-bg: #010632;
+  --color-himalayan: #d070f4;
+  --color-northern: #fc2d2d;
+  --color-western: #f898e2;
+  --color-deccan: #87e5fc;
+  --color-tribal: #feb487;
+  --color-southern: #fbfca5;
+  --color-neast: #b5fc8a;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: var(--color-bg);
+  display: grid;
+  place-items: center;
+}
+.india {
+  width: 50%;
+}
+.cls-1 {
+  fill: transparent;
+  stroke: orangered;
+}
+.himalayan {
+  stroke: var(--color-himalayan);
+}
+.himalayan:hover {
+  cursor: pointer;
+  fill: #d070f470;
+  transform: translateZ(10px);
+  transform-origin: center;
+  transition: all 150ms ease-in-out;
+}
+.western {
+  stroke: var(--color-western);
+}
+.western:hover {
+  cursor: pointer;
+  fill: #f898e2;
+  transform: translateZ(10px);
+  transform-origin: center;
+  transition: all 150ms ease-in-out;
+}
+.northern {
+  stroke: var(--color-northern);
+}
+.northern:hover {
+  cursor: pointer;
+  fill: #fc2d2d;
+  transform: translateZ(10px);
+  transform-origin: center;
+  transition: all 150ms ease-in-out;
+}
+.deccan {
+  stroke: var(--color-deccan);
+}
+.deccan:hover {
+  cursor: pointer;
+  fill: #87e5fc;
+  transform: translateZ(10px);
+  transform-origin: center;
+  transition: all 150ms ease-in-out;
+}
+.tribal {
+  stroke: var(--color-tribal);
+}
+.tribal:hover {
+  cursor: pointer;
+  fill: #feb487;
+  transform: translateZ(10px);
+  transform-origin: center;
+  transition: all 150ms ease-in-out;
+}
+.southern {
+  stroke: var(--color-southern);
+}
+.southern:hover {
+  cursor: pointer;
+  fill: #fbfca5;
+  transform: translateZ(10px);
+  transform-origin: center;
+  transition: all 150ms ease-in-out;
+}
+.neast {
+  stroke: var(--color-neast);
+}
+.neast:hover {
+  cursor: pointer;
+  fill: #b5fc8a;
+  transform: translateZ(10px);
+  transform-origin: center;
+  transition: all 150ms ease-in-out;
+}
+.modal-dialog {
+  max-width: 1100px;
+  max-width: 100vh;
+  margin: 50px auto;
+}
+.modal-content {
+  height: 90vh;
+}
